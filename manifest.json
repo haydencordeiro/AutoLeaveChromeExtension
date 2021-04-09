@@ -1,0 +1,21 @@
+{
+  "name": "Auto Leave",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Leave the meeting when there are x no of people left",
+  "homepage_url": "https://github.com/haydencordeiro",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Auto Leave!"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ]
+}
